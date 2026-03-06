@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6lZvEYETB"
+#define BLYNK_TEMPLATE_ID "{your blynk id}"
 #define BLYNK_TEMPLATE_NAME "Saklar Lampu Kost"
-#define BLYNK_AUTH_TOKEN "r6InolsgDICcnNBRinhzViJtex0dHE40"
+#define BLYNK_AUTH_TOKEN "{your auth}"
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -8,7 +8,7 @@
 #include <WidgetRTC.h>
 
 char ssid[] = "Indrawr";
-char pass[] = "indra123";
+char pass[] = "{password wifi}";
 
 #define SERVO_PIN D5
 #define WIB_OFFSET 0  // Blynk SGP1 sudah UTC+8, WIB=UTC+7, jadi kurangi 1
